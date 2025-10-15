@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        color: Navy;
+      }
+      .container {
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+      }
+      #logButton {
+        background-color: #4CAF50;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    </style>
+    <title>Log Verification Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Log Verification Page</h1>
+      <button id="logButton" onclick="logMessage()">Log a Message</button>
+    </div>
+    <script>
+      function logMessage(){
+        console.log('This is a log message from Log Verification Page');
+      }
+    </script>
+  </body>
+</html>
